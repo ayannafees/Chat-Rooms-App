@@ -16,6 +16,8 @@ Chat-Rooms-App is a web app that allows you to chat with other users who are onl
 
 - Get your profile picture displayed from your Google Account
 
+- The app is fully responsive, adapting seamlessly to different mobile screens and devices for optimal user experience.
+
 ### Dependencies
 
 This website uses the following technologies:
