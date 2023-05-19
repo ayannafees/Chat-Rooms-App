@@ -1,0 +1,17 @@
+.homeScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    justify-content: center;
+    /* padding-left: 20vw; */
+    /* padding-top: 20vw; */
+  /* height: 100vh; */
+  /* background-color: #9beff5; */
+}
+
+@media screen and (max-width: 500px) {
+  .homeScreen{
+    display: none;
+  }
+}
