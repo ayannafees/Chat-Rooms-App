@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Chat-Rooms-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployed App URL: https://messenger-14c6d.web.app
 
-## Available Scripts
+Chat-Rooms-App is a web app that allows you to chat with other users who are online after being authenticated using Google authentication. You can also create rooms and invite your friends to join. You can also get your profile picture displayed from your Google Account.
 
-In the project directory, you can run:
+### Features
 
-### `npm start`
+- Login and get authenticated using Google Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Chat with other users in real-time
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Create rooms and invite your friends to join
 
-### `npm test`
+- Send and receive texts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Get your profile picture displayed from your Google Account
 
-### `npm run build`
+### Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This website uses the following technologies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- CSS
 
-### `npm run eject`
+- JavaScript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React Hooks
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React Context API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React Router 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Material UI
 
-## Learn More
+- Firebase Authentication
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Firebase Firestore
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Firebase Hosting
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### How to use
 
-### Analyzing the Bundle Size
+To use Chat-Rooms-App, you need to have a web browser that supports Firebase and React. You can visit https://messenger-14c6d.web.app to access the app. Once you are on the website, you can login using your Google account and start chatting with other users. You can also create a room by clicking on the 'Add New Room' button at the top left corner of the screen. You can then invite your friends by sharing the room link with them. To join a room, you need to click on the room link.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Privacy and safety
 
-### Making a Progressive Web App
+Chat-Rooms-App does not collect or store any personal information from its users. All messages are stored in Firebase Cloud Firestore and are deleted after a short time duration. Chat-Rooms-App uses Firebase Authentication to verify users and Firebase Hosting to serve the app. Chat-Rooms-App does not use any encryption or security measures for its messages, so please be careful about what you share online.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Contributors
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created by Ayan Nafees as part of his web development portfolio. You can contact him at ayan014iiitm@gmail.com or visit his LinkedIn page at ( https://www.linkedin.com/in/ayannafees/ )
